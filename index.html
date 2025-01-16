@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈裕凯的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">我的个人主页</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#experience">经历</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <div class="profile-img"></div>
+            <h1>陈裕凯</h1>
+            <p class="typewriter">系统开发工程师 </p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-weixin"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="https://www.douyin.com/user/self?from_tab_name=main&showTab=like" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 data-aos="fade-right">关于我</h2>
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <p>我是一名程序开发者，专注于运动控制设备创新的技术解决方案。</p>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>年龄：20岁</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>学历：硕士</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>所在地：广东</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-language"></i>
+                        <span>语言：中文、英语</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-right">专业技能</h2>
+        <div class="skills-container">
+            <div class="skill-category" data-aos="zoom-in">
+                <h3>前端开发</h3>
+                <div class="skill-item">
+                    <span>HTML/CSS</span>
+                    <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>React</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="zoom-in" data-aos-delay="200">
+                <h3>后端开发</h3>
+                <div class="skill-item">
+                    <span>Python</span>
+                    <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>Node.js</span>
+                    <div class="progress-bar"><div class="progress" style="width: 82%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 data-aos="fade-right">作品集</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-aos="flip-left">
+                <img src="https://via.placeholder.com/300x200" alt="项目1">
+                <div class="portfolio-info">
+                    <h3>苹果天地盒生产线</h3>
+                    <p>项目描述</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-aos="flip-left" data-aos-delay="200">
+                <img src="https://via.placeholder.com/300x200" alt="项目2">
+                <div class="portfolio-info">
+                    <h3>三星天地盒生产线</h3>
+                    <p>项目描述</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-aos="flip-left" data-aos-delay="400">
+                <img src="https://via.placeholder.com/300x200" alt="项目3">
+                <div class="portfolio-info">
+                    <h3>波兰天地线</h3>
+                    <p>项目描述</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 data-aos="fade-right">工作经历</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-content">
+                    <h3>高级开发工程师</h3>
+                    <h4>某科技公司</h4>
+                    <p class="timeline-date">2022 - 至今</p>
+                    <p>负责公司核心产品的开发和维护，带领团队完成多个重要项目。</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-content">
+                    <h3>前端开发工程师</h3>
+                    <h4>某互联网公司</h4>
+                    <p class="timeline-date">2020 - 2022</p>
+                    <p>参与多个大型Web应用的开发，负责用户界面设计和实现。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-right">联系我</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>email@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+86 123 4567 8900</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-weixin"></i>
+                    <p>WeChat: myid123</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-tiktok"></i>
+                    <p><a href="https://www.douyin.com/user/self?from_tab_name=main&showTab=like" target="_blank">抖音号: myTikTok</a></p>
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-left" onsubmit="handleSubmit(event)">
+                <input type="text" name="name" placeholder="您的姓名" required>
+                <input type="email" name="email" placeholder="您的邮箱" required>
+                <textarea name="message" placeholder="您的留言" required></textarea>
+                <button type="submit">发送消息</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 个人网站 | 保留所有权利</p>
+    </footer>
+
+    <div id="message-toast" class="message-toast"></div>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            
+            const form = event.target;
+            const formData = new FormData(form);
+            const data = {
+                name: formData.get('name'),
+                email: formData.get('email'),
+                message: formData.get('message')
+            };
+
+            try {
+                showToast('正在发送消息...');
+                
+                const response = await fetch('http://localhost:3000/send-email', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    showToast('消息发送成功！');
+                    form.reset();
+                } else {
+                    throw new Error(result.message || '发送失败');
+                }
+            } catch (error) {
+                console.error('发送消息时出错：', error);
+                showToast('发送失败，请稍后重试。');
+            }
+        }
+
+        // 改进提示框函数
+        let toastTimeout;
+        function showToast(message) {
+            const toast = document.getElementById('message-toast');
+            // 清除之前的定时器
+            if (toastTimeout) {
+                clearTimeout(toastTimeout);
+            }
+            
+            toast.textContent = message;
+            toast.classList.add('show');
+            
+            // 如果不是"正在发送"状态，3秒后隐藏提示
+            if (message !== '正在发送消息...') {
+                toastTimeout = setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 3000);
+            }
+        }
+    </script>
+</body>
+</html> 
